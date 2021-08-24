@@ -88,6 +88,7 @@ For the best development experience use this config in conjunction with a ESLint
 For VS Code use the following:
 
 > dbaeumer.vscode-eslint
+
 > esbenp.prettier-vscode
 
 Eensure Prettier is your default formatter, and "Format On Save" is enabled
