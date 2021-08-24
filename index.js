@@ -1,6 +1,5 @@
 const base = require("./rules/base.js");
 const react = require("./rules/react.js");
-const prettier = require("./rules/prettier.js");
 
 module.exports = {
   extends: ["airbnb", "airbnb/hooks", "plugin:prettier/recommended"],
@@ -18,7 +17,7 @@ module.exports = {
       jsx: true,
     },
   },
-  rules: { ...base, ...react, ...prettier },
+  rules: { ...base, ...react },
   settings: {
     react: {
       version: "detect",
