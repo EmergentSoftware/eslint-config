@@ -1,5 +1,5 @@
 {
-  "name": "@emergentsoftware/eslint-config",
+  "name": "@emergent/eslint-config",
   "version": "1.0.0",
   "description": "ESLint & Prettier config for React",
   "main": "index.js",
