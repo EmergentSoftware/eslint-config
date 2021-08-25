@@ -6,7 +6,7 @@
 
 ## Overview
 
-This configuration extends [airbnb](https://www.npmjs.com/package/eslint-config-airbnb) ESLint config and Prettier integration via the ESLint [plugin](https://github.com/prettier/eslint-plugin-prettier). A few rules are overriden to enable a less strict development experience.
+This configuration uses the [airbnb](https://www.npmjs.com/package/eslint-config-airbnb) ESLint config as starting point and overrides a few rules to create a less restrictive development environment. Prettier recommended code formatting rules are enforced via the ESLint [plugin](https://github.com/prettier/eslint-plugin-prettier).
 
 ## Setup
 
@@ -36,7 +36,7 @@ $ npx install-peerdeps @emergent/eslint-config --save-dev
 
 ## Usage
 
-Just add `@emergent/eslint-config` to your `.eslintrc` file:
+Add `@emergent/eslint-config` to your `.eslintrc` configfile:
 
 ```jsx
 // .eslintrc
@@ -70,7 +70,7 @@ Ensure these rules match the options specified in your `.prettierrc` file.
 
 ## Adding Scripts
 
-Add the following lines to your `package.json` in the scripts sections. This will let you see your linting errors, and fix them automatically.
+Add the following scripts to your `package.json` file. Run these commnads to see your error, or fix them automatically.
 
 ```jsx
 "scripts": {
@@ -83,9 +83,9 @@ Add the following lines to your `package.json` in the scripts sections. This wil
 
 ## Extensions
 
-For the best development experience use this config in conjunction with a ESLint & Prettier plugin for your favorite editor. The ESLint plugin will highlite errors, and the prettier plugin will auto-format on save.
+For the best development experience use this config with the ESLint & Prettier extensions for your code editor. The ESLint extension highlites errors, and the prettier plugin will auto-format on save.
 
-For VS Code use the following:
+For Visual Studio Code use the following:
 
 > dbaeumer.vscode-eslint
 
