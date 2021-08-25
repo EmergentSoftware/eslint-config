@@ -23,9 +23,9 @@ This will install the config along with its peer dependencies:
 - eslint-config-prettier
 - eslint-plugin-import
 - eslint-plugin-jsx-a11y
-- eslint-plugin-prettier
 - eslint-plugin-react
 - eslint-plugin-react-hooks
+- eslint-plugin-prettier
 - prettier
 
 **NOTE:** if you are on an older version of `npm` (`<7.0.0`), you will need to install these manually:
